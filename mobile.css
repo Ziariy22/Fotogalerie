@@ -1,0 +1,9 @@
+@media (max-width: 1000px) {
+    .img-box {
+        max-width: 100%;
+    }
+
+    .gallery-background-img {
+        overflow: hidden;
+    }
+}

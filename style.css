@@ -1,0 +1,95 @@
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.d-none {
+    display: none;
+} 
+
+.header {
+    font-size: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: dimgray;
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    font-family: 'Raleway Dots', cursive;
+}
+
+.img-gallery {
+    margin-top: 110px;
+}
+
+.img-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5px 2px;
+    object-fit: cover;
+    flex: 1;
+    height: 300px;
+}
+
+.img-box img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.img-background {
+    height: 100vh;
+    background-color: black;
+}
+
+.gallery-background-img {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#close-img {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 25px;
+}
+
+#close-img:hover {
+    opacity: 0.7;
+}
+
+#left-arrow {
+    position: absolute;
+    top: 50%;
+    margin-left: 15px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#left-arrow:hover {
+    opacity: 0.7;
+}
+
+#right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-right: 15px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#right-arrow:hover {
+    opacity: 0.7;
+}
+
+
+
