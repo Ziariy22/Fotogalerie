@@ -22,8 +22,7 @@ function load() {
 
 function openImg(i) {
     currentImage = i;
-    console.log(img[i]);
-
+    
     document.getElementById('body').innerHTML = blackBackground(img[i]); // In der Template definiert
 }
 
