@@ -5,7 +5,7 @@ body {
 
 .d-none {
     display: none;
-} 
+}
 
 .header {
     font-size: 30px;
@@ -63,33 +63,43 @@ body {
 }
 
 #close-img:hover {
-    opacity: 0.7;
+    filter: brightness(1.50);
 }
 
 #left-arrow {
     position: absolute;
     top: 50%;
-    margin-left: 15px;
+    margin-left: 20px;
     height: 50px;
     cursor: pointer;
 }
 
 #left-arrow:hover {
-    opacity: 0.7;
+    filter: brightness(1.15);
 }
 
 #right-arrow {
     position: absolute;
     top: 50%;
     right: 0;
-    margin-right: 15px;
+    margin-right: 20px;
     height: 50px;
     cursor: pointer;
 }
 
 #right-arrow:hover {
-    opacity: 0.7;
+    filter: brightness(1.15);
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
 
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
 
+::-webkit-scrollbar-thumb:vertical {
+    height: 7px;
+    background-color: rgb(255, 0, 255);
+}
